@@ -1,0 +1,6 @@
+{
+  "name": "commit-por-etapa",
+  "version": "0.1.0",
+  "description": "Ao fim de cada turno com mudanças, propõe um commit no seu estilo e envia para a branch atual (nunca main).",
+  "types": "./types/index.d.ts"
+}

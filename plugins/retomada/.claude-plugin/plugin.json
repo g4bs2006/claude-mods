@@ -1,0 +1,6 @@
+{
+  "name": "retomada",
+  "version": "0.1.0",
+  "description": "Retomada de contexto: ao abrir a sessão mostra a branch, os últimos commits, o que não foi commitado nem enviado e como terminou a sessão anterior, e passa isso ao Claude.",
+  "types": "./types/index.d.ts"
+}

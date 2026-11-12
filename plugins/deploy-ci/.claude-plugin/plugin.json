@@ -1,0 +1,6 @@
+{
+  "name": "deploy-ci",
+  "version": "0.1.0",
+  "description": "Depois de cada push, acompanha o CI e o deploy (checks e status do GitHub, como os da Vercel) do commit enviado e avisa quando fica verde ou quebra.",
+  "types": "./types/index.d.ts"
+}

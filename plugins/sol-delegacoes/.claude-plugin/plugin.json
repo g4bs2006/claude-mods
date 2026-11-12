@@ -1,0 +1,6 @@
+{
+  "name": "sol-delegacoes",
+  "version": "0.1.0",
+  "description": "Painel com as tarefas delegadas ao Sol (scripts/sol.mjs): o que está rodando, o que voltou e a revisão de cada entrega.",
+  "types": "./types/index.d.ts"
+}

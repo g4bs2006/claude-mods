@@ -1,0 +1,5 @@
+# Escrito pelo Claude Code ao carregar cada mod
+.claude-plugin/types/
+plugins/*/.claude-plugin/types/
+.DS_Store
+*.log

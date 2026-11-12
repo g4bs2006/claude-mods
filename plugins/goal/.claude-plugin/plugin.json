@@ -1,0 +1,6 @@
+{
+  "name": "goal",
+  "version": "0.1.0",
+  "description": "Painel do goal da sessão: o objetivo, as etapas (espelhadas das tasks do Claude), o que já foi feito e o que falta, guardado por repositório.",
+  "types": "./types/index.d.ts"
+}

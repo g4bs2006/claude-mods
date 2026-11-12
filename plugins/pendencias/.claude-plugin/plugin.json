@@ -1,0 +1,6 @@
+{
+  "name": "pendencias",
+  "version": "0.1.0",
+  "description": "Caixa de pendências entre sessões: ao fim de cada turno guarda o que depende de você (aprovar, responder, rodar, fazer merge) e mostra tudo numa lista só.",
+  "types": "./types/index.d.ts"
+}

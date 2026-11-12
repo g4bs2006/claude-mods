@@ -1,0 +1,39 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "g4bs2006"
+  },
+  "description": "Mods do Claude Code: goal, pendências entre sessões, retomada, deploy/CI, delegação ao Sol e commit por etapa.",
+  "plugins": [
+    {
+      "name": "goal",
+      "source": "./plugins/goal",
+      "description": "Painel do goal da sessão: objetivo, etapas e progresso, guardado por repositório."
+    },
+    {
+      "name": "pendencias",
+      "source": "./plugins/pendencias",
+      "description": "Caixa de pendências entre sessões: o que depende de você, numa lista só."
+    },
+    {
+      "name": "retomada",
+      "source": "./plugins/retomada",
+      "description": "Ao abrir a sessão, mostra onde a anterior parou e passa isso ao Claude."
+    },
+    {
+      "name": "deploy-ci",
+      "source": "./plugins/deploy-ci",
+      "description": "Acompanha o CI e o deploy de cada push e avisa quando fica verde ou quebra."
+    },
+    {
+      "name": "sol-delegacoes",
+      "source": "./plugins/sol-delegacoes",
+      "description": "Painel das tarefas delegadas ao Sol (scripts/sol.mjs) e da revisão de cada entrega."
+    },
+    {
+      "name": "commit-por-etapa",
+      "source": "./plugins/commit-por-etapa",
+      "description": "Propõe o commit de cada etapa no seu estilo e envia para a branch atual."
+    }
+  ]
+}
